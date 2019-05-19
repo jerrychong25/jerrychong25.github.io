@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
 </head>
 <body>
 <div class="container">
@@ -25,12 +28,23 @@
         </div>
     </div>
 </div>
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
 
-<section class="row">
+<script>
+    GitHubCalendar(".calendar", "jerrychong25");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "jerrychong25", { responsive: true });
+</script>
+
+<!-- <section class="row">
     <div class="col-md-12">
         <img class="img-responsive profile" src="img/banner.jpg" alt="Banner Image">
     </div>
-</section>
+</section> -->
+
 <section class="completed-projects">
     <div class="row">
          <div class="col-md-12">
