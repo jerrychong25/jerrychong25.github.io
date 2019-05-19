@@ -1,0 +1,8 @@
+language: generic 
+deploy:
+  provider: pages
+  skip_cleanup: true
+  keep_history: true
+  github_token: $github_token  # Set in the settings page of your repository, as a secure variable
+  on:
+    branch: master
