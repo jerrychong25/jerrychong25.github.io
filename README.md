@@ -1,3 +1,3 @@
-## Portfolio Website
+## Jerry Chong's Portfolio Website
 
-A simple portfolio website.
+A simple Jerry Chong's portfolio website.
