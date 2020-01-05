@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://google.com"
+    "url": "https://github.com/jerrychong25/jerrychong25.github.io"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
