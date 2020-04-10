@@ -1,7 +1,15 @@
 language: node_js
 node_js:
   - 6
-script: npm run build
+before_script:
+  - npm install -g preact-cli
+  - npm install
+script: 
+  - npm run build
+after_success:
+  - cat ./coverage/lcov.info | node_modules/.bin/coveralls --verbose
+  - cat ./coverage/coverage.json | node_modules/codecov.io/bin/codecov.io.js
+  - rm -rf ./coverage
 deploy:
   provider: pages
   skip_cleanup: true
@@ -9,7 +17,3 @@ deploy:
   github_token: $github_token  # Set in the settings page of your repository, as a secure variable
   on:
     branch: master
-after_success:
-  - cat ./coverage/lcov.info | node_modules/.bin/coveralls --verbose
-  - cat ./coverage/coverage.json | node_modules/codecov.io/bin/codecov.io.js
-  - rm -rf ./coverage
