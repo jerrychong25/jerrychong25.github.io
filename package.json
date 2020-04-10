@@ -1,13 +1,13 @@
 {
-    "name": "preact-homepage-generator",
-    "version": "1.0.0",
+    "name": "jerry-chong-portfolio-website",
+    "version": "2.0.0",
     "main": "index.js",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/tomasswood/preact-homepage-generator.git"
+        "url": "https://github.com/jerrychong25/jerrychong25.github.io.git"
     },
-    "homepage": "http://preact-homepage-generator.thomaswood.me/",
+    "homepage": "https://jerrychong25.github.io/",
     "jest": {
         "verbose": true,
         "collectCoverage": true,
