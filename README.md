@@ -1,4 +1,6 @@
-# Jerry Chong's Portfolio Website
+# Jerry Chong's Portfolio Website 
+
+[![Build Status](https://travis-ci.org/jerrychong25/jerrychong25.github.io.svg?branch=master)](https://travis-ci.org/jerrychong25/jerrychong25.github.io)
 
 A simple Jerry Chong's portfolio website.
 
