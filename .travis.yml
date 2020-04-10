@@ -3,13 +3,8 @@ node_js:
   - 6
 before_script:
   - npm install -g preact-cli
-  - npm install
 script: 
   - npm run build
-after_success:
-  - cat ./coverage/lcov.info | node_modules/.bin/coveralls --verbose
-  - cat ./coverage/coverage.json | node_modules/codecov.io/bin/codecov.io.js
-  - rm -rf ./coverage
 deploy:
   provider: pages
   skip_cleanup: true
