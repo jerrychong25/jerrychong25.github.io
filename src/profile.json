@@ -1,0 +1,188 @@
+{
+    "header": {
+        "title": "Jerry Chong",
+        "subtitle": "Full Stack Engineer",
+        "background_color": "#663AB7",
+        "background_image": "newcastle.jpg",
+        "background_images": [{
+            "width": 2560,
+            "filename": "newcastle-xlarge.jpg"
+        }, {
+            "width": 1920,
+            "filename": "newcastle.jpg"
+        }, {
+            "width": 1600,
+            "filename": "newcastle-large.jpg"
+        }, {
+            "width": 1280,
+            "filename": "newcastle-medium.jpg"
+        }, {
+            "width": 960,
+            "filename": "newcastle-small.jpg"
+        }, {
+            "width": 480,
+            "filename": "newcastle-xsmall.jpg"
+        }]
+    },
+    "profile": {
+        "title": "Profile",
+        "background_color": "#FFF",
+        "about": {
+            "title": "About me",
+            "description": "Software engineer specialized in building mobile and web apps since 2015."
+        },
+        "bio": {
+            "title": "Bio",
+            "list": [{
+                    "label": "Name",
+                    "value": "Jerry Chong"
+                },
+                {
+                    "label": "City",
+                    "value": "Kuala Lumpur"
+                },
+                {
+                    "label": "Country",
+                    "value": "Malaysia"
+                }
+            ]
+        }
+    },
+    "experience": {
+        "title": "Experience",
+        "background_color": "#41564E",
+        "list": [
+            {
+                "title": "Education",
+                "list": [{
+                    "location": "Universiti Tunku Abdul Rahman (UTAR)",
+                    "time": {
+                        "from": "2012",
+                        "to": "2016"
+                    },
+                    "title": "Bachelor of Engineering (Hons) Mechatronics Engineering",
+                    "description": "Accredited by Malaysian Qualification Agency (MQA) and Board of Engineers Malaysia (BEM)"
+                }]
+            },
+            {
+                "title": "Career",
+                "list": [{
+                    "location": "Wirecard",
+                    "time": {
+                        "from": "Dec 2016",
+                        "to": "Jan 2019"
+                    },
+                    "title": "Software Engineer, R&D Customer Implementation",
+                    "description": "Design and development of front end EDC terminal applications."
+                }, 
+                {
+                    "location": "Explosoft",
+                    "time": {
+                        "from": "Feb 2016",
+                        "to": "Aug 2019"
+                    },
+                    "title": "Full Stack Engineer",
+                    "description": "Design and development of Android & iOS mobile apps, and Node.js web apps."
+                },
+                {
+                    "location": "Accenture",
+                    "time": {
+                        "from": "Aug 2019",
+                        "to": "Present"
+                    },
+                    "title": "Digital Business Integration Analyst",
+                    "description": "Design and development of React and Node.js web apps."
+                }
+            ]
+            }
+        ]
+    },
+    "skills": {
+        "title": "Skills",
+        "background_color": "#FFF",
+        "list": [
+            {
+                "label": "Node.js",
+                "value": 4
+            }, 
+            {
+                "label": "Android (Java & Kotlin)",
+                "value": 4
+            },
+            {
+                "label": "C",
+                "value": 4
+            },
+            {
+                "label": "iOS (Swift)",
+                "value": 3
+            },
+            {
+                "label": "SQL",
+                "value": 3
+            }, 
+            {
+                "label": "DevOps",
+                "value": 3
+            },
+            {
+                "label": "Google Cloud Platform (GCP)",
+                "value": 3
+            },            
+            {
+                "label": "Amazon Web Services (AWS)",
+                "value": 3
+            },
+            {
+                "label": "Typescript",
+                "value": 2
+            },
+            {
+                "label": "C#",
+                "value": 2
+            },
+            {
+                "label": "Apigee",
+                "value": 2
+            },
+            {
+                "label": "Mulesoft",
+                "value": 2
+            },
+            {
+                "label": "React",
+                "value": 2
+            },
+            {
+                "label": "Angular",
+                "value": 2
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact",
+        "background_color": "#5DC6DD",
+        "list": [
+            {
+                "label": "jerrychong25@gmail.com",
+                "link": "mailto:jerrychong25@gmail.com",
+                "icon_class": "envelope"
+            },
+            {
+                "label": "LinkedIn",
+                "link": "https://my.linkedin.com/in/chonghf",
+                "icon_class": "linkedin-square"
+            }, 
+            {
+                "label": "GitHub",
+                "link": "https://github.com/jerrychong25",
+                "icon_class": "github"
+            }, 
+            {
+                "label": "Stack Overflow",
+                "link": "https://stackoverflow.com/users/5918539/jerry-chong",
+                "icon_class": "stack-overflow"
+            }
+        ]
+    }
+}
