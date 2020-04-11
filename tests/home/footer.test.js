@@ -23,7 +23,7 @@ test( 'check if Footer is not rendering FooterItems', () => {
 
 test( 'check if Footer is rendering FooterItems', () => {
 	const actual = shallow( <Footer list={list} title="Test!" /> );
-	expect( actual.find( 'FooterItem' ).length ).toEqual( 2 );
+	expect( actual.find( 'FooterItem' ).length ).toEqual( 4 );
 } );
 
 test( 'check if Footer is rendering FooterItems with correct icon', () => {

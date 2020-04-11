@@ -3,9 +3,12 @@ node_js:
   - 'lts/*'
 install:
   - npm install -g preact-cli
+  - npm install -g codecov
   - npm install
 script: 
   - npm run build
+  - jest
+  - codecov
 deploy:
   provider: pages
   skip_cleanup: true

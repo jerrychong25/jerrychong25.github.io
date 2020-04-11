@@ -23,19 +23,19 @@ test( 'check if Skills is not rendering SkillItems', () => {
 
 test( 'check if Skills is rendering SkillItems', () => {
 	const actual = shallow( <Skills list={list} title="Test!" /> );
-	expect( actual.find( 'SkillItem' ).length ).toEqual( 4 );
+	expect( actual.find( 'SkillItem' ).length ).toEqual( 14 );
 } );
 
 test( 'check if Skills is rendering SkillItems with correct StarFull icons', () => {
 	const actual = deep( <Skills list={list} title="Test!" />, { depth: 3 } );
 	expect( actual.find( 'SkillItem' ).at( 3 )
-		.find( '.fa-star' ).length ).toEqual( 4 );
+		.find( '.fa-star' ).length ).toEqual( 3 );
 } );
 
 test( 'check if Skills is rendering SkillItems with correct StarEmpty icons', () => {
 	const actual = deep( <Skills list={list} title="Test!" />, { depth: 3 } );
 	expect( actual.find( 'SkillItem' ).at( 3 )
-		.find( '.fa-star-o' ).length ).toEqual( 1 );
+		.find( '.fa-star-o' ).length ).toEqual( 2 );
 } );
 
 test( 'check if Skills is rendering SkillItems with correct text', () => {

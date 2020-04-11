@@ -4,6 +4,8 @@
 [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/jerrychong25/jerrychong25.github.io)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/jerrychong25/jerrychong25.github.io/graphs/commit-activity)
 [![Known Vulnerabilities](https://snyk.io/test/github/jerrychong25/jerrychong25.github.io/badge.svg)](https://snyk.io/test/github/jerrychong25/jerrychong25.github.io)
+[![codecov.io](https://codecov.io/github/jerrychong25/jerrychong25.github.io/coverage.svg)]
+(https://codecov.io/github/jerrychong25/jerrychong25.github.io)
 [![Build Status](https://travis-ci.org/jerrychong25/jerrychong25.github.io.svg?branch=staging)](https://travis-ci.org/jerrychong25/jerrychong25.github.io)
 [![HitCount](http://hits.dwyl.com/jerrychong25/jerrychong25githubio.svg)](http://hits.dwyl.com/jerrychong25/jerrychong25githubio)
 
