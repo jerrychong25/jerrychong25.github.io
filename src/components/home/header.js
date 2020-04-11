@@ -6,7 +6,7 @@ export const viewSize = () => {
 	const viewport = ( typeof window !== 'undefined' ) ? window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth : 1920,
 		ratio = ( typeof window !== 'undefined' ) ? window.devicePixelRatio || 1 : 1;
 
-	return { viewport: viewport, ratio: ratio };
+	return { viewport, ratio };
 };
 
 export const chooseBackgroundImages = ( backgroundImages, imageModules, { viewport = 1920, ratio = 1 } ) => {
@@ -24,7 +24,8 @@ export const chooseBackgroundImages = ( backgroundImages, imageModules, { viewpo
 		if ( lastImage && lastImage.filename ) {
 			headerImage = lastImage.filename;
 		}
-	} else {
+	}
+	else {
 		headerImage = imageModules[ 0 ];
 	}
 
@@ -36,7 +37,8 @@ const determineImage = ( backgroundImage, backgroundImages ) => {
 	if ( backgroundImages ) {
 		const imageModules = requireAll( require.context( '../../assets/header', false ) );
 		headerImage = chooseBackgroundImages( backgroundImages, imageModules, { ...viewSize() } );
-	} else {
+	}
+	else {
 		headerImage = require( `../../assets/header/${backgroundImage}` );
 	}
 

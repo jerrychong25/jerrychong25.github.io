@@ -11,7 +11,7 @@
     "jest": {
         "verbose": true,
         "collectCoverage": true,
-        "coverageDirectory": "<rootDir>/coverage",
+        "coverageDirectory": "./coverage/",
         "testURL": "http://localhost:8080",
         "transform": {
             "\\.(js|jsx)$": "./transformPreprocessor.js"
@@ -39,9 +39,9 @@
         "build-test": "npm run tests-only && preact build --template template.html",
         "serve": "preact build && preact serve",
         "dev": "preact watch --template template.html",
-        "lint": "eslint src",
+        "lint": "eslint src --fix",
         "tests-only": "jest --no-cache",
-        "test": "eslint src && jest --no-cache"
+        "test": "npm run lint && jest --no-cache"
     },
     "eslintConfig": {
         "extends": "eslint-config-synacor"
