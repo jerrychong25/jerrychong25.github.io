@@ -292,12 +292,12 @@ var header_Header = function (_Component) {
 					{ 'class': 'header-wrapper-text' },
 					Object(preact_min["h"])(
 						'h1',
-						{ 'class': 'title', itemprop: 'name' },
+						{ 'class': 'title' },
 						props.title
 					),
 					Object(preact_min["h"])(
 						'h2',
-						{ 'class': 'subtitle', itemprop: 'jobTitle' },
+						{ 'class': 'subtitle' },
 						props.subtitle
 					)
 				)
@@ -807,7 +807,7 @@ var home_Home = function (_Component) {
 
 		return Object(preact_min["h"])(
 			'div',
-			{ itemscope: true, itemprop: 'Person', itemtype: 'https://schema.org/Person' },
+			{ itemscope: true, itemtype: 'https://schema.org/Person' },
 			profile.header && Object(preact_min["h"])(header_Header, profile.header),
 			profile.profile && Object(preact_min["h"])(profile_Profile, profile.profile),
 			profile.experience && Object(preact_min["h"])(experience_Experience, profile.experience),
