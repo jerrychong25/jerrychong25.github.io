@@ -64,7 +64,7 @@
         "node-sass": "^4.13.1",
         "postcss": "^6.0.23",
         "preact": "^8.2.5",
-        "preact-compat": "^3.17.0",
+        "preact-compat": "^3.19.0",
         "preact-router": "^2.5.7",
         "sass-loader": "^6.0.6",
         "what-input": "^5.1.3"
