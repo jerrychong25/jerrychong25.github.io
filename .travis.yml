@@ -4,7 +4,7 @@ node_js:
 install:
   - npm install -g preact-cli
   - npm install -g codecov
-  - npm install
+  - npm ci
 script: 
   - npm run build
   - jest
