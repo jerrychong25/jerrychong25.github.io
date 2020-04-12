@@ -59,8 +59,8 @@ export default class Header extends Component {
 			<header class="header" style={{ backgroundColor: props.background_color || null, backgroundImage: background_image }}>
 				<div class="header-wrapper">
 					<div class="header-wrapper-text">
-						<h1 class="title" itemprop="name">{props.title}</h1>
-						<h2 class="subtitle" itemprop="jobTitle">{props.subtitle}</h2>
+						<h1 class="title">{props.title}</h1>
+						<h2 class="subtitle">{props.subtitle}</h2>
 					</div>
 				</div>
 			</header>
