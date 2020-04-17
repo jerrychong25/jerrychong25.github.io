@@ -60,7 +60,7 @@
         "ajv": "^5.5.2",
         "font-awesome": "^4.7.0",
         "foundation-sites": "^6.6.1",
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "node-sass": "^4.13.1",
         "postcss": "^6.0.23",
         "preact": "^8.5.3",
