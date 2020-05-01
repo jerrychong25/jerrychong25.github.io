@@ -1,5 +1,4 @@
 import { h, Component } from 'preact';
-import ReactGA from 'react-ga';
 import fetch from 'unfetch';
 
 import Header from './header';
@@ -18,9 +17,6 @@ export default class Home extends Component {
 	}
 
 	render( {}, { profile } ) {
-		ReactGA.initialize('UA-140876731-1');
-		ReactGA.pageview(window.location.pathname + window.location.search);
-
 		return (
 			<div itemscope itemtype="https://schema.org/Person">
 				{profile.header && <Header {...profile.header} />}
