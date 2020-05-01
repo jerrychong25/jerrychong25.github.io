@@ -66,6 +66,7 @@
         "preact": "^8.5.3",
         "preact-compat": "^3.17.0",
         "preact-router": "^2.5.7",
+        "react-ga": "^2.7.0",
         "sass-loader": "^6.0.6",
         "what-input": "^5.2.7"
     }
