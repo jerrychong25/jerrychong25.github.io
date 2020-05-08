@@ -18,3 +18,4 @@ deploy:
   target_branch: master
   on:
     branch: staging
+  fqdn: jerrychong.tk
