@@ -76,14 +76,14 @@ module.exports = {"header":{"title":"Jerry Chong","subtitle":"Full Stack Enginee
 /***/ "4eXR":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "234e30fcb8d8f3074faf94677f88c158.jpg";
+module.exports = __webpack_require__.p + "29df0c2e4167bc6a3d7eeee377ae6d80.jpg";
 
 /***/ }),
 
 /***/ "ELET":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "f07de9feb4b96a94cca030577f550cd5.jpg";
+module.exports = __webpack_require__.p + "0a1eebbadca1c382a3f48537a01ae62f.jpg";
 
 /***/ }),
 
@@ -96,7 +96,13 @@ var map = {
 	"./newcastle-small.jpg": "ELET",
 	"./newcastle-xlarge.jpg": "YmqD",
 	"./newcastle-xsmall.jpg": "4eXR",
-	"./newcastle.jpg": "UCVP"
+	"./newcastle.jpg": "UCVP",
+	"./old/newcastle-large.jpg": "fdbz",
+	"./old/newcastle-medium.jpg": "Vto3",
+	"./old/newcastle-small.jpg": "kV4R",
+	"./old/newcastle-xlarge.jpg": "YLLn",
+	"./old/newcastle-xsmall.jpg": "j1aW",
+	"./old/newcastle.jpg": "MdFs"
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -1068,6 +1074,13 @@ var App = function (_Component) {
 
 /***/ }),
 
+/***/ "MdFs":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "cfb572d7700e8995aefaf25a49cbb7d9.jpg";
+
+/***/ }),
+
 /***/ "NfrT":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1100,28 +1113,63 @@ webpackContext.id = "NfrT";
 /***/ "TH7f":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "9e4e1d8d6f4efb1f85bcc338de57704f.jpg";
+module.exports = __webpack_require__.p + "c2813806e15f851f7e11e8e269237231.jpg";
 
 /***/ }),
 
 /***/ "UCVP":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "cfb572d7700e8995aefaf25a49cbb7d9.jpg";
+module.exports = __webpack_require__.p + "7e8b3baeca91f55c92ca75156104fc53.jpg";
 
 /***/ }),
 
-/***/ "YmqD":
+/***/ "Vto3":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "dde14227fd6e8257f5a31eb7deb2ea3a.jpg";
+
+/***/ }),
+
+/***/ "YLLn":
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "fa1386098b541e95769539f4bdb64bf8.jpg";
 
 /***/ }),
 
+/***/ "YmqD":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "8771f495af2422a7a28459b5944989c9.jpg";
+
+/***/ }),
+
+/***/ "fdbz":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "9e4e1d8d6f4efb1f85bcc338de57704f.jpg";
+
+/***/ }),
+
+/***/ "j1aW":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "234e30fcb8d8f3074faf94677f88c158.jpg";
+
+/***/ }),
+
+/***/ "kV4R":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "f07de9feb4b96a94cca030577f550cd5.jpg";
+
+/***/ }),
+
 /***/ "mo1Q":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dde14227fd6e8257f5a31eb7deb2ea3a.jpg";
+module.exports = __webpack_require__.p + "d65b5cf4cb13684207828a4c638c8ee3.jpg";
 
 /***/ }),
 
