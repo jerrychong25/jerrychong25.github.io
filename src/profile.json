@@ -2,7 +2,7 @@
     "header": {
       "title": "Jerry Chong",
       "subtitle": "Full Stack Engineer",
-      "background_color": "#663AB7",
+      "background_color": "rgba(100, 100, 100, 0.8)",
       "background_image": "newcastle.jpg",
       "background_images": [
         {
