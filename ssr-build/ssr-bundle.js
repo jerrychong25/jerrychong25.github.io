@@ -69,21 +69,28 @@ module.exports =
 /***/ "+5hP":
 /***/ (function(module, exports) {
 
-module.exports = {"header":{"title":"Jerry Chong","subtitle":"Full Stack Engineer","background_color":"rgba(100, 100, 100, 0.8)","background_image":"newcastle.jpg","background_images":[{"width":2560,"filename":"newcastle-xlarge.jpg"},{"width":1920,"filename":"newcastle.jpg"},{"width":1600,"filename":"newcastle-large.jpg"},{"width":1280,"filename":"newcastle-medium.jpg"},{"width":960,"filename":"newcastle-small.jpg"},{"width":480,"filename":"newcastle-xsmall.jpg"}]},"profile":{"title":"Profile","background_color":"#FFF","about":{"title":"About me","description":"Building web cum mobile apps, and IoT apps integration since 2015. During free time, I volunteer as Wikipedia Editor, Google Map Editor and Facebook Map Editor for helping our communities."},"bio":{"title":"Bio","list":[{"label":"Name","value":"Jerry Chong"},{"label":"City","value":"Kuala Lumpur"},{"label":"Country","value":"Malaysia"}]}},"experience":{"title":"Experience","background_color":"#41564E","list":[{"title":"Education","list":[{"location":"Universiti Tunku Abdul Rahman (UTAR)","time":{"from":"2012","to":"2016"},"title":"Bachelor of Engineering (Hons) Mechatronics Engineering","description":"Accredited by Malaysian Qualification Agency (MQA) and Board of Engineers Malaysia (BEM)"}]},{"title":"Career","list":[{"location":"Wirecard","time":{"from":"Dec 2016","to":"Jan 2019"},"title":"Software Engineer, R&D Customer Implementation","description":"Design and development of front end EDC terminal applications."},{"location":"Explosoft","time":{"from":"Feb 2016","to":"Aug 2019"},"title":"Full Stack Engineer","description":"Design and development of Android & iOS mobile apps, and Node.js web apps."},{"location":"Accenture","time":{"from":"Aug 2019","to":"Present"},"title":"Digital Business Integration Analyst","description":"Design and development of React and Node.js web apps."}]}]},"skills":{"title":"Skills","background_color":"#FFF","list":[{"label":"Node.js","value":4},{"label":"Android (Java & Kotlin)","value":4},{"label":"C","value":4},{"label":"iOS (Swift)","value":3},{"label":"SQL","value":3},{"label":"DevOps","value":3},{"label":"Google Cloud Platform (GCP)","value":3},{"label":"Amazon Web Services (AWS)","value":3},{"label":"Typescript","value":2},{"label":"C#","value":2},{"label":"Apigee","value":2},{"label":"Mulesoft","value":2},{"label":"React","value":2},{"label":"Angular","value":2}]},"contact":{"title":"Contact","background_color":"#5DC6DD","list":[{"label":"jerrychong25@gmail.com","link":"mailto:jerrychong25@gmail.com","icon_class":"envelope"},{"label":"LinkedIn","link":"https://my.linkedin.com/in/chonghf","icon_class":"linkedin-square"},{"label":"GitHub","link":"https://github.com/jerrychong25","icon_class":"github"},{"label":"Stack Overflow","link":"https://stackoverflow.com/users/5918539/jerry-chong","icon_class":"stack-overflow"}]}}
+module.exports = {"header":{"title":"Jerry Chong","subtitle":"Full Stack Engineer","background_color":"rgba(100, 100, 100, 0.8)","background_image":"kuala-lumpur.jpg","background_images":[{"width":2560,"filename":"kuala-lumpur-xlarge.jpg"},{"width":1920,"filename":"kuala-lumpur.jpg"},{"width":1600,"filename":"kuala-lumpur-large.jpg"},{"width":1280,"filename":"kuala-lumpur-medium.jpg"},{"width":960,"filename":"kuala-lumpur-small.jpg"},{"width":480,"filename":"kuala-lumpur-xsmall.jpg"}]},"profile":{"title":"Profile","background_color":"#FFF","about":{"title":"About me","description":"Building web cum mobile apps, and IoT apps integration since 2015. During free time, I volunteer as Wikipedia Editor, Google Map Editor and Facebook Map Editor for helping our communities."},"bio":{"title":"Bio","list":[{"label":"Name","value":"Jerry Chong"},{"label":"City","value":"Kuala Lumpur"},{"label":"Country","value":"Malaysia"}]}},"experience":{"title":"Experience","background_color":"#41564E","list":[{"title":"Education","list":[{"location":"Universiti Tunku Abdul Rahman (UTAR)","time":{"from":"2012","to":"2016"},"title":"Bachelor of Engineering (Hons) Mechatronics Engineering","description":"Accredited by Malaysian Qualification Agency (MQA) and Board of Engineers Malaysia (BEM)"}]},{"title":"Career","list":[{"location":"Wirecard","time":{"from":"Dec 2016","to":"Jan 2019"},"title":"Software Engineer, R&D Customer Implementation","description":"Design and development of front end EDC terminal applications."},{"location":"Explosoft","time":{"from":"Feb 2016","to":"Aug 2019"},"title":"Full Stack Engineer","description":"Design and development of Android & iOS mobile apps, and Node.js web apps."},{"location":"Accenture","time":{"from":"Aug 2019","to":"Present"},"title":"Digital Business Integration Analyst","description":"Design and development of React and Node.js web apps."}]}]},"skills":{"title":"Skills","background_color":"#FFF","list":[{"label":"Node.js","value":4},{"label":"Android (Java & Kotlin)","value":4},{"label":"C","value":4},{"label":"iOS (Swift)","value":3},{"label":"SQL","value":3},{"label":"DevOps","value":3},{"label":"Google Cloud Platform (GCP)","value":3},{"label":"Amazon Web Services (AWS)","value":3},{"label":"Typescript","value":2},{"label":"C#","value":2},{"label":"Apigee","value":2},{"label":"Mulesoft","value":2},{"label":"React","value":2},{"label":"Angular","value":2}]},"contact":{"title":"Contact","background_color":"#5DC6DD","list":[{"label":"jerrychong25@gmail.com","link":"mailto:jerrychong25@gmail.com","icon_class":"envelope"},{"label":"LinkedIn","link":"https://my.linkedin.com/in/chonghf","icon_class":"linkedin-square"},{"label":"GitHub","link":"https://github.com/jerrychong25","icon_class":"github"},{"label":"Stack Overflow","link":"https://stackoverflow.com/users/5918539/jerry-chong","icon_class":"stack-overflow"}]}}
 
 /***/ }),
 
-/***/ "4eXR":
+/***/ "+Wcy":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "29df0c2e4167bc6a3d7eeee377ae6d80.jpg";
+module.exports = __webpack_require__.p + "c2813806e15f851f7e11e8e269237231.jpg";
 
 /***/ }),
 
-/***/ "ELET":
+/***/ "FIIk":
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "0a1eebbadca1c382a3f48537a01ae62f.jpg";
+
+/***/ }),
+
+/***/ "HPHI":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "8771f495af2422a7a28459b5944989c9.jpg";
 
 /***/ }),
 
@@ -91,18 +98,22 @@ module.exports = __webpack_require__.p + "0a1eebbadca1c382a3f48537a01ae62f.jpg";
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./newcastle-large.jpg": "TH7f",
-	"./newcastle-medium.jpg": "mo1Q",
-	"./newcastle-small.jpg": "ELET",
-	"./newcastle-xlarge.jpg": "YmqD",
-	"./newcastle-xsmall.jpg": "4eXR",
-	"./newcastle.jpg": "UCVP",
-	"./old/newcastle-large.jpg": "fdbz",
-	"./old/newcastle-medium.jpg": "Vto3",
-	"./old/newcastle-small.jpg": "kV4R",
-	"./old/newcastle-xlarge.jpg": "YLLn",
-	"./old/newcastle-xsmall.jpg": "j1aW",
-	"./old/newcastle.jpg": "MdFs"
+	"./kuala lumpur/3072x1728 ori.jpg": "y1iP",
+	"./kuala lumpur/3072x1728.jpg": "bnNk",
+	"./kuala lumpur/3872x2592 ori.jpg": "mYUN",
+	"./kuala lumpur/3872x2592.jpg": "RvrX",
+	"./kuala lumpur/6000x3376 ori.jpg": "g2UC",
+	"./kuala lumpur/6000x3376.jpg": "TEn5",
+	"./kuala lumpur/klcc-1463805_1920.jpg": "hW54",
+	"./kuala lumpur/kuala-lumpur-1609699.jpg": "Tz0N",
+	"./kuala lumpur/kuala-lumpur-482648.jpg": "Lxwx",
+	"./kuala lumpur/malaysia-2032975.jpg": "cf6H",
+	"./kuala-lumpur-large.jpg": "+Wcy",
+	"./kuala-lumpur-medium.jpg": "glQ2",
+	"./kuala-lumpur-small.jpg": "FIIk",
+	"./kuala-lumpur-xlarge.jpg": "HPHI",
+	"./kuala-lumpur-xsmall.jpg": "oRMe",
+	"./kuala-lumpur.jpg": "hCuV"
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -1074,10 +1085,10 @@ var App = function (_Component) {
 
 /***/ }),
 
-/***/ "MdFs":
+/***/ "Lxwx":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "cfb572d7700e8995aefaf25a49cbb7d9.jpg";
+module.exports = __webpack_require__.p + "933cf3a1c400a7bb950d42cb93a6891e.jpg";
 
 /***/ }),
 
@@ -1085,12 +1096,12 @@ module.exports = __webpack_require__.p + "cfb572d7700e8995aefaf25a49cbb7d9.jpg";
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./newcastle-large.jpg": "TH7f",
-	"./newcastle-medium.jpg": "mo1Q",
-	"./newcastle-small.jpg": "ELET",
-	"./newcastle-xlarge.jpg": "YmqD",
-	"./newcastle-xsmall.jpg": "4eXR",
-	"./newcastle.jpg": "UCVP"
+	"./kuala-lumpur-large.jpg": "+Wcy",
+	"./kuala-lumpur-medium.jpg": "glQ2",
+	"./kuala-lumpur-small.jpg": "FIIk",
+	"./kuala-lumpur-xlarge.jpg": "HPHI",
+	"./kuala-lumpur-xsmall.jpg": "oRMe",
+	"./kuala-lumpur.jpg": "hCuV"
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -1110,66 +1121,87 @@ webpackContext.id = "NfrT";
 
 /***/ }),
 
-/***/ "TH7f":
+/***/ "RvrX":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "c2813806e15f851f7e11e8e269237231.jpg";
+module.exports = __webpack_require__.p + "89719b79cf3e82e3cc8de6ecd176717e.jpg";
 
 /***/ }),
 
-/***/ "UCVP":
+/***/ "TEn5":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "c65ddd04b4477e83d24113e3fc2338f9.jpg";
+
+/***/ }),
+
+/***/ "Tz0N":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "ad88df9922891137d195ae2a100dbafa.jpg";
+
+/***/ }),
+
+/***/ "bnNk":
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "7e8b3baeca91f55c92ca75156104fc53.jpg";
 
 /***/ }),
 
-/***/ "Vto3":
+/***/ "cf6H":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "dde14227fd6e8257f5a31eb7deb2ea3a.jpg";
+module.exports = __webpack_require__.p + "a01e828074e0f801d55913bf17259889.jpg";
 
 /***/ }),
 
-/***/ "YLLn":
+/***/ "g2UC":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "fa1386098b541e95769539f4bdb64bf8.jpg";
+module.exports = __webpack_require__.p + "69c7ea14ab3f5a2310e0a34ea4a33484.jpg";
 
 /***/ }),
 
-/***/ "YmqD":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "8771f495af2422a7a28459b5944989c9.jpg";
-
-/***/ }),
-
-/***/ "fdbz":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "9e4e1d8d6f4efb1f85bcc338de57704f.jpg";
-
-/***/ }),
-
-/***/ "j1aW":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "234e30fcb8d8f3074faf94677f88c158.jpg";
-
-/***/ }),
-
-/***/ "kV4R":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "f07de9feb4b96a94cca030577f550cd5.jpg";
-
-/***/ }),
-
-/***/ "mo1Q":
+/***/ "glQ2":
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "d65b5cf4cb13684207828a4c638c8ee3.jpg";
+
+/***/ }),
+
+/***/ "hCuV":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "7e8b3baeca91f55c92ca75156104fc53.jpg";
+
+/***/ }),
+
+/***/ "hW54":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "56f04794766e9ad0c7ea4215c2f8bad2.jpg";
+
+/***/ }),
+
+/***/ "mYUN":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "4e2986128b4a6b39108c17f831df050d.jpg";
+
+/***/ }),
+
+/***/ "oRMe":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "29df0c2e4167bc6a3d7eeee377ae6d80.jpg";
+
+/***/ }),
+
+/***/ "y1iP":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "037664eba347a932df3f3682f4d743fc.jpg";
 
 /***/ }),
 
