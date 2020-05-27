@@ -3,31 +3,31 @@
       "title": "Jerry Chong",
       "subtitle": "Full Stack Engineer",
       "background_color": "rgba(100, 100, 100, 0.8)",
-      "background_image": "newcastle.jpg",
+      "background_image": "kuala-lumpur.jpg",
       "background_images": [
         {
           "width": 2560,
-          "filename": "newcastle-xlarge.jpg"
+          "filename": "kuala-lumpur-xlarge.jpg"
         },
         {
           "width": 1920,
-          "filename": "newcastle.jpg"
+          "filename": "kuala-lumpur.jpg"
         },
         {
           "width": 1600,
-          "filename": "newcastle-large.jpg"
+          "filename": "kuala-lumpur-large.jpg"
         },
         {
           "width": 1280,
-          "filename": "newcastle-medium.jpg"
+          "filename": "kuala-lumpur-medium.jpg"
         },
         {
           "width": 960,
-          "filename": "newcastle-small.jpg"
+          "filename": "kuala-lumpur-small.jpg"
         },
         {
           "width": 480,
-          "filename": "newcastle-xsmall.jpg"
+          "filename": "kuala-lumpur-xsmall.jpg"
         }
       ]
     },
