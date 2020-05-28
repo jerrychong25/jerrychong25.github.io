@@ -12,10 +12,6 @@ export default class Home extends Component {
 		profile: require('../../profile.json')
 	};
 
-	componentDidMount() {
-		fetch( '/profile.json' ).then( response => response.json() ).then( profile => this.setState( { profile } ) );
-	}
-
 	render( {}, { profile } ) {
 		return (
 			<div itemscope itemtype="https://schema.org/Person">
