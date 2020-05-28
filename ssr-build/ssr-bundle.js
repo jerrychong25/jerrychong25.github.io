@@ -76,21 +76,21 @@ module.exports = {"header":{"title":"Jerry Chong","subtitle":"Full Stack Enginee
 /***/ "+Wcy":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "c2813806e15f851f7e11e8e269237231.jpg";
+module.exports = __webpack_require__.p + "0d17f2da772405a06db7725d382b5eec.jpg";
 
 /***/ }),
 
 /***/ "FIIk":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "0a1eebbadca1c382a3f48537a01ae62f.jpg";
+module.exports = __webpack_require__.p + "8767613ed4c320f2087ddd9be0c3fb35.jpg";
 
 /***/ }),
 
 /***/ "HPHI":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "8771f495af2422a7a28459b5944989c9.jpg";
+module.exports = __webpack_require__.p + "8242c0bcd717ef9084a54b4c8b6b3b97.jpg";
 
 /***/ }),
 
@@ -98,16 +98,6 @@ module.exports = __webpack_require__.p + "8771f495af2422a7a28459b5944989c9.jpg";
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./kuala lumpur/3072x1728 ori.jpg": "y1iP",
-	"./kuala lumpur/3072x1728.jpg": "bnNk",
-	"./kuala lumpur/3872x2592 ori.jpg": "mYUN",
-	"./kuala lumpur/3872x2592.jpg": "RvrX",
-	"./kuala lumpur/6000x3376 ori.jpg": "g2UC",
-	"./kuala lumpur/6000x3376.jpg": "TEn5",
-	"./kuala lumpur/klcc-1463805_1920.jpg": "hW54",
-	"./kuala lumpur/kuala-lumpur-1609699.jpg": "Tz0N",
-	"./kuala lumpur/kuala-lumpur-482648.jpg": "Lxwx",
-	"./kuala lumpur/malaysia-2032975.jpg": "cf6H",
 	"./kuala-lumpur-large.jpg": "+Wcy",
 	"./kuala-lumpur-medium.jpg": "glQ2",
 	"./kuala-lumpur-small.jpg": "FIIk",
@@ -1085,13 +1075,6 @@ var App = function (_Component) {
 
 /***/ }),
 
-/***/ "Lxwx":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "933cf3a1c400a7bb950d42cb93a6891e.jpg";
-
-/***/ }),
-
 /***/ "NfrT":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1121,87 +1104,24 @@ webpackContext.id = "NfrT";
 
 /***/ }),
 
-/***/ "RvrX":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "89719b79cf3e82e3cc8de6ecd176717e.jpg";
-
-/***/ }),
-
-/***/ "TEn5":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "c65ddd04b4477e83d24113e3fc2338f9.jpg";
-
-/***/ }),
-
-/***/ "Tz0N":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "ad88df9922891137d195ae2a100dbafa.jpg";
-
-/***/ }),
-
-/***/ "bnNk":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "7e8b3baeca91f55c92ca75156104fc53.jpg";
-
-/***/ }),
-
-/***/ "cf6H":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "a01e828074e0f801d55913bf17259889.jpg";
-
-/***/ }),
-
-/***/ "g2UC":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "69c7ea14ab3f5a2310e0a34ea4a33484.jpg";
-
-/***/ }),
-
 /***/ "glQ2":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "d65b5cf4cb13684207828a4c638c8ee3.jpg";
+module.exports = __webpack_require__.p + "e907bf38dc89561664edc108efda61c0.jpg";
 
 /***/ }),
 
 /***/ "hCuV":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "7e8b3baeca91f55c92ca75156104fc53.jpg";
-
-/***/ }),
-
-/***/ "hW54":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "56f04794766e9ad0c7ea4215c2f8bad2.jpg";
-
-/***/ }),
-
-/***/ "mYUN":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "4e2986128b4a6b39108c17f831df050d.jpg";
+module.exports = __webpack_require__.p + "6f93594f25938fe24805fb056b5839e4.jpg";
 
 /***/ }),
 
 /***/ "oRMe":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "29df0c2e4167bc6a3d7eeee377ae6d80.jpg";
-
-/***/ }),
-
-/***/ "y1iP":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "037664eba347a932df3f3682f4d743fc.jpg";
+module.exports = __webpack_require__.p + "0eeac3b1f5d12a0d86feb503ba0e4661.jpg";
 
 /***/ }),
 
