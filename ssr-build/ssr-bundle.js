@@ -797,16 +797,6 @@ var home_Home = function (_Component) {
 		}, _temp), home__possibleConstructorReturn(_this, _ret);
 	}
 
-	Home.prototype.componentDidMount = function componentDidMount() {
-		var _this2 = this;
-
-		unfetch_es('/profile.json').then(function (response) {
-			return response.json();
-		}).then(function (profile) {
-			return _this2.setState({ profile: profile });
-		});
-	};
-
 	Home.prototype.render = function render(_ref, _ref2) {
 		var profile = _ref2.profile;
 
