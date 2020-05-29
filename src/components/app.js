@@ -7,7 +7,10 @@ export default class App extends Component {
 
 	componentDidMount() {
 		// Initialize React Google Analytics
-		ReactGA.initialize('UA-140876731-2', { testMode: true });
+		ReactGA.initialize('UA-140876731-2', { 
+			debug: true,
+			testMode: true
+		});
 	}
 
 	render() {
