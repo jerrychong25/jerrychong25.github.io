@@ -3087,6 +3087,9 @@ function app__inherits(subClass, superClass) { if (typeof superClass !== "functi
 
 
 
+// Initialize React Google Analytics
+esm.initialize('UA-140876731-2');
+
 var app__ref = Object(preact_min["h"])(
 	'div',
 	{ id: 'app' },
@@ -3103,11 +3106,7 @@ var app_App = function (_Component) {
 	}
 
 	App.prototype.componentDidMount = function componentDidMount() {
-		// Initialize React Google Analytics
-		esm.initialize('UA-140876731-2', {
-			debug: true,
-			testMode: true
-		});
+		esm.pageview(window.location.pathname + window.location.search);
 	};
 
 	App.prototype.render = function render() {
