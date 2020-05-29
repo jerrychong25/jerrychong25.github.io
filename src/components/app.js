@@ -4,13 +4,13 @@ import Home from './home';
 import ReactGA from 'react-ga';
 
 // Initialize React Google Analytics
-ReactGA.initialize('UA-140876731-2');
+ReactGA.initialize('UA-140876731-2', { testMode: true });
 
 export default class App extends Component {
 
 	componentDidMount() {
 		// Initialize Page View
-		ReactGA.pageview('/')
+		ReactGA.pageview('/');
 	}
 
 	render() {
