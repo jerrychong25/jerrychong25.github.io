@@ -69,7 +69,7 @@
     "preact-compat": "^3.17.0",
     "preact-router": "^2.5.7",
     "sass-loader": "^6.0.6",
-    "snyk": "^1.319.0",
+    "snyk": "^1.319.2",
     "what-input": "^5.2.7"
   },
   "snyk": true
