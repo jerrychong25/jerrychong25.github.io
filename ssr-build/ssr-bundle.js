@@ -3104,7 +3104,10 @@ var app_App = function (_Component) {
 
 	App.prototype.componentDidMount = function componentDidMount() {
 		// Initialize React Google Analytics
-		esm.initialize('UA-140876731-2', { testMode: true });
+		esm.initialize('UA-140876731-2', {
+			debug: true,
+			testMode: true
+		});
 	};
 
 	App.prototype.render = function render() {
