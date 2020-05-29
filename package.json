@@ -59,7 +59,9 @@
     "preact-render-spy": "^1.1.0"
   },
   "dependencies": {
+    "@analytics/google-analytics": "^0.4.0",
     "ajv": "^5.5.2",
+    "analytics": "^0.4.0",
     "font-awesome": "^4.7.0",
     "foundation-sites": "^6.6.3",
     "jquery": "^3.5.1",
