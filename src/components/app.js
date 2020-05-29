@@ -1,17 +1,16 @@
 import { h, Component } from 'preact';
 
 import Home from './home';
-import analytics from './analytics'
+import ReactGA from 'react-ga';
+
+// Initialize React Google Analytics
+ReactGA.initialize('UA-140876731-2', { testMode: true });
 
 export default class App extends Component {
 
 	componentDidMount() {
-		// Basic page tracking
-		analytics.page()
-		// Basic event tracking
-		analytics.track('mainPage')
-		// Basic user id identify
-		analytics.identify('visitor')
+		// Initialize Page View
+		ReactGA.pageview('/');
 	}
 
 	render() {

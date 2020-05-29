@@ -1,6 +1,6 @@
 {
   "name": "jerry-chong-website",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -59,9 +59,7 @@
     "preact-render-spy": "^1.1.0"
   },
   "dependencies": {
-    "@analytics/google-analytics": "^0.4.0",
     "ajv": "^5.5.2",
-    "analytics": "^0.4.0",
     "font-awesome": "^4.7.0",
     "foundation-sites": "^6.6.3",
     "jquery": "^3.5.1",
@@ -70,6 +68,7 @@
     "preact": "^8.5.3",
     "preact-compat": "^3.17.0",
     "preact-router": "^2.5.7",
+    "react-ga": "^2.7.0",
     "sass-loader": "^6.0.6",
     "snyk": "^1.319.2",
     "what-input": "^5.2.7"
