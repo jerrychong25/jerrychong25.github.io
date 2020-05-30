@@ -73,10 +73,10 @@ module.exports = {"header":{"title":"Jerry Chong","subtitle":"Full Stack Enginee
 
 /***/ }),
 
-/***/ "+Wcy":
+/***/ "1HGd":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "0d17f2da772405a06db7725d382b5eec.jpg";
+module.exports = __webpack_require__.p + "77f026b03c7aa530f106cd62386b93d8.jpg";
 
 /***/ }),
 
@@ -128,17 +128,10 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
-/***/ "FIIk":
+/***/ "IeK+":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "8767613ed4c320f2087ddd9be0c3fb35.jpg";
-
-/***/ }),
-
-/***/ "HPHI":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "8242c0bcd717ef9084a54b4c8b6b3b97.jpg";
+module.exports = __webpack_require__.p + "55071c1055784e79c4c6b6810171bebd.jpg";
 
 /***/ }),
 
@@ -146,12 +139,12 @@ module.exports = __webpack_require__.p + "8242c0bcd717ef9084a54b4c8b6b3b97.jpg";
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./kuala-lumpur-large.jpg": "+Wcy",
-	"./kuala-lumpur-medium.jpg": "glQ2",
-	"./kuala-lumpur-small.jpg": "FIIk",
-	"./kuala-lumpur-xlarge.jpg": "HPHI",
-	"./kuala-lumpur-xsmall.jpg": "oRMe",
-	"./kuala-lumpur.jpg": "hCuV"
+	"./kuala-lumpur-large_optimized.jpg": "IeK+",
+	"./kuala-lumpur-medium_optimized.jpg": "Qyxj",
+	"./kuala-lumpur-small_optimized.jpg": "bCK6",
+	"./kuala-lumpur-xlarge_optimized.jpg": "K+W6",
+	"./kuala-lumpur-xsmall_optimized.jpg": "wenU",
+	"./kuala-lumpur_optimized.jpg": "1HGd"
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -3125,6 +3118,13 @@ var app_App = function (_Component) {
 
 /***/ }),
 
+/***/ "K+W6":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "a0827bf6c3c3eee15d582aa7011524f0.jpg";
+
+/***/ }),
+
 /***/ "KM04":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3333,12 +3333,12 @@ var app_App = function (_Component) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./kuala-lumpur-large.jpg": "+Wcy",
-	"./kuala-lumpur-medium.jpg": "glQ2",
-	"./kuala-lumpur-small.jpg": "FIIk",
-	"./kuala-lumpur-xlarge.jpg": "HPHI",
-	"./kuala-lumpur-xsmall.jpg": "oRMe",
-	"./kuala-lumpur.jpg": "hCuV"
+	"./kuala-lumpur-large_optimized.jpg": "IeK+",
+	"./kuala-lumpur-medium_optimized.jpg": "Qyxj",
+	"./kuala-lumpur-small_optimized.jpg": "bCK6",
+	"./kuala-lumpur-xlarge_optimized.jpg": "K+W6",
+	"./kuala-lumpur-xsmall_optimized.jpg": "wenU",
+	"./kuala-lumpur_optimized.jpg": "1HGd"
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -3358,24 +3358,17 @@ webpackContext.id = "NfrT";
 
 /***/ }),
 
-/***/ "glQ2":
+/***/ "Qyxj":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "e907bf38dc89561664edc108efda61c0.jpg";
+module.exports = __webpack_require__.p + "50c2667eb77b19ec18b7eee55eb4079a.jpg";
 
 /***/ }),
 
-/***/ "hCuV":
+/***/ "bCK6":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "6f93594f25938fe24805fb056b5839e4.jpg";
-
-/***/ }),
-
-/***/ "oRMe":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "0eeac3b1f5d12a0d86feb503ba0e4661.jpg";
+module.exports = __webpack_require__.p + "ead5f3142d3c0504cbb9cc1b0a4d434f.jpg";
 
 /***/ }),
 
@@ -3438,6 +3431,13 @@ module.exports = function () {
 
   return ReactPropTypes;
 };
+
+/***/ }),
+
+/***/ "wenU":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "8b304fed83217bd46021e72e8169dfb9.jpg";
 
 /***/ }),
 
