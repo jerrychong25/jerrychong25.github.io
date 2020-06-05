@@ -70,7 +70,7 @@
     "preact-router": "^2.5.7",
     "react-ga": "^2.7.0",
     "sass-loader": "^6.0.6",
-    "snyk": "^1.320.3",
+    "snyk": "^1.321.0",
     "what-input": "^5.2.7"
   },
   "snyk": true
