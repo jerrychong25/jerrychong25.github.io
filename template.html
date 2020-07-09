@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title><%= htmlWebpackPlugin.options.title %></title>
+		<!-- General Meta Tags -->
+		<meta name="name" content="Jerry Chong | Full Stack Engineer">
+		<meta name="description" content="I'm Jerry Chong, Full Stack Engineer building web and mobile apps since 2015. I also working on IoT applicaitons for integration between hardware and software.">
+		<meta name="keywords" content="Jerry Chong, Full Stack Engineer, UTAR, Universiti Tunku Abdul Rahman, Accenture, Mechatronics, IoT, Internet of Things, Node.js, API">
+		<meta name="author" content="Jerry Chong">
+		<meta name="robots" content="index, follow">
+		<!-- Google / Search Engine Meta Tags -->
+		<meta itemprop="name" content="Jerry Chong | Full Stack Engineer">
+		<meta itemprop="description" content="I'm Jerry Chong, Full Stack Engineer building web and mobile apps since 2015. I also working on IoT applicaitons for integration between hardware and software.">
+		<meta itemprop="image" content="https://jerrychong.tk/favicon.ico">
+		<!-- Facebook Meta Tags -->
+		<meta property="og:type" content="profile">
+		<meta property="og:title" content="Jerry Chong | Full Stack Engineer">
+		<meta property="og:site_name" content="Jerry Chong's Website">
+		<meta property="og:url" content="https://jerrychong.tk/">
+		<meta property="og:image" content="https://jerrychong.tk/favicon.ico">
+		<meta property="og:locale" content="en_MY">
+		<meta property="profile:first_name" content="Jerry">
+		<meta property="profile:last_name" content="Chong">
+		<meta property="profile:gender" content="male">
+		<!-- Twitter Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@jerrychong25">
+		<meta name="twitter:creator" content="@jerrychong25">
+		<meta name="twitter:title" content="Jerry Chong | Full Stack Engineer">
+		<meta name="twitter:description" content="I'm Jerry Chong, Full Stack Engineer building web and mobile apps since 2015. I also working on IoT applicaitons for integration between hardware and software.">
+		<meta name="twitter:image" content="https://jerrychong.tk/favicon.ico">
+		<!-- Response Web Design Meta Tags -->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="manifest" href="/manifest.json">
+		<% if (htmlWebpackPlugin.options.manifest.theme_color) { %>
+			<meta name="theme-color" content="<%= htmlWebpackPlugin.options.manifest.theme_color %>">
+		<% } %>
+		<% for (var chunk of webpack.chunks) { %>
+		 <% if (chunk.names.length === 1 && chunk.names[0] === 'polyfills') continue; %>
+			<% for (var file of chunk.files) { %>
+				<% if (htmlWebpackPlugin.options.preload && file.match(/\.(js|css)$/)) { %>
+					<link rel="preload" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>">
+				<% } else if (file.match(/manifest\.json$/)) { %>
+					<link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath + file %>">
+				<% } %>
+			<% } %>
+		<% } %>
+	</head>
+	<body>
+		<%= htmlWebpackPlugin.options.ssr({
+			url: '/'
+		}) %>
+		<script defer src="<%= htmlWebpackPlugin.files.chunks['bundle'].entry %>"></script>
+		<script>window.fetch||document.write('<script src="<%= htmlWebpackPlugin.files.chunks["polyfills"].entry %>"><\/script>')</script>
+	</body>
+</html>
