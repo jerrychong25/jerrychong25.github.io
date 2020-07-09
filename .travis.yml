@@ -16,7 +16,7 @@ script:
   # - jest
   - codecov
   # Code Climate
-  - nyc --reporter=lcov yarn run unit
+  - nyc --reporter=lcov npm run test
 after_script:
   # Code Climate
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
