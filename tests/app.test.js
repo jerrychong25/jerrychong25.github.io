@@ -1,6 +1,5 @@
-// import { h } from 'preact';
 // import App from '../src/components/app';
-// import { shallow, deep } from 'preact-render-spy';
+// import { shallow } from 'preact-render-spy';
 
 // test( 'check if App is rendering', () => {
 // 	const actual = shallow( <App /> );
@@ -11,3 +10,7 @@
 // 	const actual = shallow( <App /> );
 // 	expect( actual.find( 'Home' ) ).toBeTruthy();
 // } );
+
+test( 'check if App is dummy rendering', () => {
+	expect('dummy').toBe('dummy');
+} );
