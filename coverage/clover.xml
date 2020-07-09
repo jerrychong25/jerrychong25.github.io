@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1586595714040" clover="3.2.0">
-  <project timestamp="1586595714040" name="All files">
-    <metrics statements="55" coveredstatements="53" conditionals="65" coveredconditionals="56" methods="32" coveredmethods="29" elements="152" coveredelements="138" complexity="0" loc="55" ncloc="55" packages="2" files="8" classes="8">
+<coverage generated="1590768929487" clover="3.2.0">
+  <project timestamp="1590768929487" name="All files">
+    <metrics statements="53" coveredstatements="51" conditionals="65" coveredconditionals="56" methods="28" coveredmethods="27" elements="146" coveredelements="134" complexity="0" loc="53" ncloc="53" packages="2" files="7" classes="7">
       <package name="components">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <file name="app.js" path="D:\GitHub\jerrychong25.github.io\src\components\app.js">
-          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-          <line num="8" count="2" type="stmt"/>
-        </file>
-        <file name="icon.js" path="D:\GitHub\jerrychong25.github.io\src\components\icon.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="icon.js" path="/Users/hon.fong.chong/Documents/GitHub/jerrychong25.github.io/src/components/icon.js">
           <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-          <line num="1" count="5" type="stmt"/>
+          <line num="1" count="4" type="stmt"/>
           <line num="2" count="141" type="stmt"/>
         </file>
       </package>
       <package name="components.home">
-        <metrics statements="52" coveredstatements="50" conditionals="65" coveredconditionals="56" methods="30" coveredmethods="27"/>
-        <file name="experience.js" path="D:\GitHub\jerrychong25.github.io\src\components\home\experience.js">
+        <metrics statements="51" coveredstatements="49" conditionals="65" coveredconditionals="56" methods="27" coveredmethods="26"/>
+        <file name="experience.js" path="/Users/hon.fong.chong/Documents/GitHub/jerrychong25.github.io/src/components/home/experience.js">
           <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
           <line num="3" count="10" type="stmt"/>
           <line num="7" count="3" type="stmt"/>
@@ -26,20 +22,20 @@
           <line num="37" count="8" type="stmt"/>
           <line num="44" count="10" type="stmt"/>
         </file>
-        <file name="footer.js" path="D:\GitHub\jerrychong25.github.io\src\components\home\footer.js">
+        <file name="footer.js" path="/Users/hon.fong.chong/Documents/GitHub/jerrychong25.github.io/src/components/home/footer.js">
           <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
           <line num="7" count="4" type="stmt"/>
           <line num="17" count="6" type="stmt"/>
           <line num="24" count="12" type="cond" truecount="2" falsecount="0"/>
         </file>
-        <file name="header.js" path="D:\GitHub\jerrychong25.github.io\src\components\home\header.js">
+        <file name="header.js" path="/Users/hon.fong.chong/Documents/GitHub/jerrychong25.github.io/src/components/home/header.js">
           <metrics statements="27" coveredstatements="25" conditionals="29" coveredconditionals="20" methods="7" coveredmethods="6"/>
-          <line num="3" count="3" type="stmt"/>
-          <line num="5" count="3" type="stmt"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="5" count="2" type="stmt"/>
           <line num="6" count="1" type="cond" truecount="2" falsecount="3"/>
           <line num="7" count="1" type="cond" truecount="3" falsecount="1"/>
           <line num="9" count="1" type="stmt"/>
-          <line num="12" count="3" type="cond" truecount="0" falsecount="2"/>
+          <line num="12" count="2" type="cond" truecount="0" falsecount="2"/>
           <line num="14" count="2" type="stmt"/>
           <line num="15" count="12" type="cond" truecount="2" falsecount="0"/>
           <line num="16" count="2" type="stmt"/>
@@ -51,7 +47,7 @@
           <line num="25" count="1" type="stmt"/>
           <line num="29" count="1" type="stmt"/>
           <line num="32" count="2" type="stmt"/>
-          <line num="35" count="3" type="stmt"/>
+          <line num="35" count="2" type="stmt"/>
           <line num="37" count="1" type="cond" truecount="1" falsecount="1"/>
           <line num="38" count="0" type="stmt"/>
           <line num="39" count="0" type="stmt"/>
@@ -62,12 +58,11 @@
           <line num="54" count="3" type="cond" truecount="4" falsecount="0"/>
           <line num="58" count="3" type="stmt"/>
         </file>
-        <file name="index.js" path="D:\GitHub\jerrychong25.github.io\src\components\home\index.js">
-          <metrics statements="2" coveredstatements="2" conditionals="10" coveredconditionals="10" methods="4" coveredmethods="2"/>
+        <file name="index.js" path="/Users/hon.fong.chong/Documents/GitHub/jerrychong25.github.io/src/components/home/index.js">
+          <metrics statements="1" coveredstatements="1" conditionals="10" coveredconditionals="10" methods="1" coveredmethods="1"/>
           <line num="16" count="1" type="stmt"/>
-          <line num="20" count="1" type="stmt"/>
         </file>
-        <file name="profile.js" path="D:\GitHub\jerrychong25.github.io\src\components\home\profile.js">
+        <file name="profile.js" path="/Users/hon.fong.chong/Documents/GitHub/jerrychong25.github.io/src/components/home/profile.js">
           <metrics statements="8" coveredstatements="8" conditionals="12" coveredconditionals="12" methods="4" coveredmethods="4"/>
           <line num="5" count="4" type="stmt"/>
           <line num="6" count="4" type="cond" truecount="4" falsecount="0"/>
@@ -78,7 +73,7 @@
           <line num="12" count="3" type="stmt"/>
           <line num="16" count="4" type="stmt"/>
         </file>
-        <file name="skills.js" path="D:\GitHub\jerrychong25.github.io\src\components\home\skills.js">
+        <file name="skills.js" path="/Users/hon.fong.chong/Documents/GitHub/jerrychong25.github.io/src/components/home/skills.js">
           <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
           <line num="7" count="117" type="stmt"/>
           <line num="8" count="93" type="stmt"/>
