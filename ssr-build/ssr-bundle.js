@@ -192,77 +192,6 @@ var style_default = /*#__PURE__*/__webpack_require__.n(style);
 var preact_min = __webpack_require__("KM04");
 var preact_min_default = /*#__PURE__*/__webpack_require__.n(preact_min);
 
-// CONCATENATED MODULE: ../node_modules/unfetch/dist/unfetch.es.js
-var index = typeof fetch == 'function' ? fetch.bind() : function (url, options) {
-	options = options || {};
-	return new Promise(function (resolve, reject) {
-		var request = new XMLHttpRequest();
-
-		request.open(options.method || 'get', url, true);
-
-		for (var i in options.headers) {
-			request.setRequestHeader(i, options.headers[i]);
-		}
-
-		request.withCredentials = options.credentials == 'include';
-
-		request.onload = function () {
-			resolve(response());
-		};
-
-		request.onerror = reject;
-
-		request.send(options.body || null);
-
-		function response() {
-			var _keys = [],
-			    all = [],
-			    headers = {},
-			    header;
-
-			request.getAllResponseHeaders().replace(/^(.*?):[^\S\n]*([\s\S]*?)$/gm, function (m, key, value) {
-				_keys.push(key = key.toLowerCase());
-				all.push([key, value]);
-				header = headers[key];
-				headers[key] = header ? header + "," + value : value;
-			});
-
-			return {
-				ok: (request.status / 100 | 0) == 2, // 200-299
-				status: request.status,
-				statusText: request.statusText,
-				url: request.responseURL,
-				clone: response,
-				text: function text() {
-					return Promise.resolve(request.responseText);
-				},
-				json: function json() {
-					return Promise.resolve(request.responseText).then(JSON.parse);
-				},
-				blob: function blob() {
-					return Promise.resolve(new Blob([request.response]));
-				},
-				headers: {
-					keys: function keys() {
-						return _keys;
-					},
-					entries: function entries() {
-						return all;
-					},
-					get: function get(n) {
-						return headers[n.toLowerCase()];
-					},
-					has: function has(n) {
-						return n.toLowerCase() in headers;
-					}
-				}
-			};
-		}
-	});
-};
-
-/* harmony default export */ var unfetch_es = (index);
-//# sourceMappingURL=unfetch.es.js.map
 // CONCATENATED MODULE: ./components/home/header.js
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -825,7 +754,6 @@ function home__classCallCheck(instance, Constructor) { if (!(instance instanceof
 function home__possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function home__inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
 
 
 
@@ -1999,7 +1927,7 @@ function unstable_batchedUpdates(callback) {
 	callback();
 }
 
-var preact_compat_es_index = {
+var index = {
 	version: version,
 	DOM: DOM,
 	PropTypes: prop_types_default.a,
@@ -2023,7 +1951,7 @@ var preact_compat_es_index = {
 	__spread: extend
 };
 
-/* harmony default export */ var preact_compat_es = (preact_compat_es_index);
+/* harmony default export */ var preact_compat_es = (index);
 
 //# sourceMappingURL=preact-compat.es.js.map
 // CONCATENATED MODULE: ../node_modules/react-ga/dist/esm/utils/console/warn.js
