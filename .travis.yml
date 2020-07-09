@@ -22,7 +22,7 @@ script:
   # Code Climate
   - nyc --reporter=lcov npm run test
   # SonarCloud
-  - sonar-scanner
+  - sonar-scanner -X -Dsonar.projectKey=jerrychong25.github.io -Dsonar.host.url=https://jerrychong.tk/
 after_script:
   # Code Climate
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
