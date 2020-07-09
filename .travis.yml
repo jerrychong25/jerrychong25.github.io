@@ -4,8 +4,7 @@ node_js:
 addons:
   sonarcloud:
     organization: "jerrychong25"
-    token:
-      secure: $sonarcloud_token # encrypted value of your token
+    token: $sonarcloud_token # encrypted value of your token
 install:
   - npm install -g preact-cli
   - npm install -g codecov
