@@ -1,6 +1,11 @@
 language: node_js
 node_js:
   - 'lts/*'
+addons:
+  sonarcloud:
+    organization: "jerrychong25"
+    token:
+      secure: $sonarcloud_token # encrypted value of your token
 install:
   - npm install -g preact-cli
   - npm install -g codecov
@@ -13,10 +18,12 @@ before_script:
   - ./cc-test-reporter before-build
 script: 
   - npm run build
-  # - jest
+  # CodeCov
   - codecov
   # Code Climate
   - nyc --reporter=lcov npm run test
+  # SonarCloud
+  - sonar-scanner
 after_script:
   # Code Climate
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
