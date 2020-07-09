@@ -1,5 +1,4 @@
 import { h, Component } from 'preact';
-import fetch from 'unfetch';
 
 import Header from './header';
 import Profile from './profile';
