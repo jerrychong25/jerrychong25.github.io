@@ -7,6 +7,7 @@
 [![w3c](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fjerrychong25.github.io%2F)](https://jerrychong25.github.io/)
 [![codecov](https://codecov.io/gh/jerrychong25/jerrychong25.github.io/branch/staging/graph/badge.svg)](https://codecov.io/gh/jerrychong25/jerrychong25.github.io)
 [![Maintainability](https://api.codeclimate.com/v1/badges/999e5107780a3be1b883/maintainability)](https://codeclimate.com/github/jerrychong25/jerrychong25.github.io/maintainability)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=jerrychong25_jerrychong25.github.io&metric=alert_status)](https://sonarcloud.io/dashboard?id=jerrychong25_jerrychong25.github.io)
 [![Build Status](https://travis-ci.org/jerrychong25/jerrychong25.github.io.svg?branch=staging)](https://travis-ci.org/jerrychong25/jerrychong25.github.io)
 [![HitCount](http://hits.dwyl.com/jerrychong25/jerrychong25githubio.svg)](http://hits.dwyl.com/jerrychong25/jerrychong25githubio)
 
