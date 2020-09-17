@@ -1,7 +1,7 @@
 {
     "header": {
       "title": "Jerry Chong",
-      "subtitle": "Full Stack Engineer",
+      "subtitle": "Full Stack | DevOps | IoT",
       "background_color": "rgba(100, 100, 100, 0.8)",
       "background_image": "kuala-lumpur.jpg",
       "background_images": [
@@ -36,7 +36,7 @@
       "background_color": "#FFF",
       "about": {
         "title": "About me",
-        "description": "Building web cum mobile apps, and IoT apps integration since 2015. During free time, I volunteer as Wikipedia Editor, Google Map Editor and Facebook Map Editor for helping our communities."
+        "description": "I'm a Full Stack Engineer speclized in building native mobile apps and web apps (Frontend, Backend & API) across AWS & GCP cloud platforms. During free time, I spent my time as Wikipedia Editor, Google Map Editor and Facebook Map Editor to impact our communities."
       },
       "bio": {
         "title": "Bio",
