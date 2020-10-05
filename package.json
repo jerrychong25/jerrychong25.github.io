@@ -59,7 +59,7 @@
     "preact-render-spy": "^1.1.0"
   },
   "dependencies": {
-    "ajv": "^6.12.4",
+    "ajv": "^6.12.5",
     "font-awesome": "^4.7.0",
     "foundation-sites": "^6.6.3",
     "jquery": "^3.5.1",
