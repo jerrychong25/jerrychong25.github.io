@@ -78,6 +78,15 @@
           "title": "Career",
           "list": [
             {
+              "location": "Universiti Tunku Abdul Rahman (UTAR)",
+              "time": {
+                "from": "Mar 2016",
+                "to": "Aug 2016"
+              },
+              "title": "Research Assistant",
+              "description": "Design and development of IoT rehabilitation system for UTAR's Undergraduate Research Scheme (URS) project named \"Development of Low Cost Upper Extremities Rehabilitation System with Interactive Feedback for Children with Movement Disorder\"."
+            },
+            {
               "location": "Wirecard",
               "time": {
                 "from": "Dec 2016",
@@ -137,16 +146,32 @@
           "value": 3
         },
         {
-          "label": "Google Cloud Platform (GCP)",
-          "value": 3
-        },
-        {
           "label": "Amazon Web Services (AWS)",
           "value": 3
         },
         {
+          "label": "Alibaba Cloud",
+          "value": 3
+        },
+        {
+          "label": "Google Cloud Platform (GCP)",
+          "value": 3
+        },
+        {
+          "label": "Terraform",
+          "value": 3
+        },
+        {
+          "label": "Vue",
+          "value": 3
+        },
+        {
           "label": "Typescript",
-          "value": 2
+          "value": 3
+        },
+        {
+          "label": "Unit Testing",
+          "value": 3
         },
         {
           "label": "C#",
