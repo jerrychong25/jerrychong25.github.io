@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1600356949215" clover="3.2.0">
-  <project timestamp="1600356949215" name="All files">
+<coverage generated="1602213554028" clover="3.2.0">
+  <project timestamp="1602213554028" name="All files">
     <metrics statements="53" coveredstatements="51" conditionals="65" coveredconditionals="56" methods="28" coveredmethods="27" elements="146" coveredelements="134" complexity="0" loc="53" ncloc="53" packages="2" files="7" classes="7">
       <package name="components">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <file name="icon.js" path="/Users/hon.fong.chong/Documents/GitHub/jerrychong25.github.io/src/components/icon.js">
           <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
           <line num="1" count="4" type="stmt"/>
-          <line num="2" count="141" type="stmt"/>
+          <line num="2" count="181" type="stmt"/>
         </file>
       </package>
       <package name="components.home">
         <metrics statements="51" coveredstatements="49" conditionals="65" coveredconditionals="56" methods="27" coveredmethods="26"/>
         <file name="experience.js" path="/Users/hon.fong.chong/Documents/GitHub/jerrychong25.github.io/src/components/home/experience.js">
           <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
-          <line num="3" count="10" type="stmt"/>
-          <line num="7" count="3" type="stmt"/>
-          <line num="9" count="3" type="stmt"/>
+          <line num="3" count="12" type="stmt"/>
+          <line num="7" count="4" type="stmt"/>
+          <line num="9" count="4" type="stmt"/>
           <line num="26" count="6" type="stmt"/>
-          <line num="29" count="10" type="cond" truecount="2" falsecount="0"/>
+          <line num="29" count="13" type="cond" truecount="2" falsecount="0"/>
           <line num="37" count="8" type="stmt"/>
           <line num="44" count="10" type="stmt"/>
         </file>
@@ -75,11 +75,11 @@
         </file>
         <file name="skills.js" path="/Users/hon.fong.chong/Documents/GitHub/jerrychong25.github.io/src/components/home/skills.js">
           <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
-          <line num="7" count="117" type="stmt"/>
-          <line num="8" count="93" type="stmt"/>
-          <line num="10" count="42" type="stmt"/>
+          <line num="7" count="156" type="stmt"/>
+          <line num="8" count="114" type="stmt"/>
+          <line num="10" count="54" type="stmt"/>
           <line num="28" count="7" type="stmt"/>
-          <line num="35" count="56" type="cond" truecount="2" falsecount="0"/>
+          <line num="35" count="72" type="cond" truecount="2" falsecount="0"/>
         </file>
       </package>
     </metrics>

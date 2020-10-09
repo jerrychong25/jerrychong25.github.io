@@ -45,7 +45,7 @@ test( 'check if Experience is not rendering ExperienceItems with ResumeItems', (
 test( 'check if Experience is rendering ExperienceItems with correct number of ResumeItems', () => {
 	const actual = deep( <Experience list={list} title="Test!" />, { depth: 2 } );
 	expect( actual.find( 'ExperienceItem' ).at( 1 )
-		.find( 'ResumeItem' ).length ).toEqual( 3 );
+		.find( 'ResumeItem' ).length ).toEqual( 4 );
 } );
 
 test( 'check if ResumeItem displays From and To correctly', () => {

@@ -23,7 +23,7 @@ test( 'check if Skills is not rendering SkillItems', () => {
 
 test( 'check if Skills is rendering SkillItems', () => {
 	const actual = shallow( <Skills list={list} title="Test!" /> );
-	expect( actual.find( 'SkillItem' ).length ).toEqual( 14 );
+	expect( actual.find( 'SkillItem' ).length ).toEqual( 18 );
 } );
 
 test( 'check if Skills is rendering SkillItems with correct StarFull icons', () => {
