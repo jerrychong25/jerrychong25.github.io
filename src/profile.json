@@ -137,16 +137,32 @@
           "value": 3
         },
         {
-          "label": "Google Cloud Platform (GCP)",
-          "value": 3
-        },
-        {
           "label": "Amazon Web Services (AWS)",
           "value": 3
         },
         {
+          "label": "Alibaba Cloud",
+          "value": 3
+        },
+        {
+          "label": "Google Cloud Platform (GCP)",
+          "value": 3
+        },
+        {
+          "label": "Terraform",
+          "value": 3
+        },
+        {
+          "label": "Vue",
+          "value": 3
+        },
+        {
           "label": "Typescript",
-          "value": 2
+          "value": 3
+        },
+        {
+          "label": "Unit Testing",
+          "value": 3
         },
         {
           "label": "C#",
