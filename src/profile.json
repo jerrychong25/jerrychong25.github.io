@@ -84,7 +84,7 @@
                 "to": "Jan 2019"
               },
               "title": "Software Engineer, R&D Customer Implementation",
-              "description": "Design and development of front end EDC terminal applications."
+              "description": "Design and development of EDC terminal payment applications."
             },
             {
               "location": "Explosoft",
@@ -93,7 +93,7 @@
                 "to": "Aug 2019"
               },
               "title": "Full Stack Engineer",
-              "description": "Design and development of Android & iOS mobile apps, and Node.js web apps."
+              "description": "Design and development of Android & iOS native mobile apps, and backend (Node.js) web apps in GCP and Alibaba Cloud platforms."
             },
             {
               "location": "Accenture",
@@ -102,7 +102,7 @@
                 "to": "Present"
               },
               "title": "Digital Business Integration Analyst",
-              "description": "Design and development of React and Node.js web apps."
+              "description": "Design and development of frontend (Angular/React) and backend (Node.js/Java Spring Boot) web apps in AWS and GCP platforms."
             }
           ]
         }
