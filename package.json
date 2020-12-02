@@ -42,6 +42,7 @@
     "lint": "eslint src --fix",
     "tests-only": "jest --no-cache",
     "test": "npm run lint && jest --no-cache",
+    "coverage": "jest --coverage",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
