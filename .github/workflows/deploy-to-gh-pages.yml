@@ -71,4 +71,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BASE_BRANCH: staging
           BRANCH: master
-          FOLDER: dist
+          FOLDER: build
