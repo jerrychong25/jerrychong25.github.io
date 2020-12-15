@@ -1,0 +1,74 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - staging
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false 
+
+      - name: Install 🔧
+          # sudo npm install -g wait-on
+        run: |
+          sudo npm install -g @vue/cli
+          sudo npm install -g codecov
+          npm ci
+
+      # - name: Run Cypress 🚀
+      #   uses: cypress-io/github-action@v2
+      #   with:
+      #     browser: chrome
+      #     start: npm run serve
+      #     wait-on: 'http://localhost:8080'
+      #     record: true
+      #   env:
+      #     # pass the Dashboard record key as an environment variable
+      #     CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+      #     # pass GitHub token to allow accurately detecting a build vs a re-run build
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Run Jest 🚀
+        run: |
+          npm run test
+      
+      - name: Generate CodeCov Code Coverage Report 🔧
+        run: |
+          ls -la
+          sudo codecov --disable=gcov
+
+      - name: Run CodeCov 🚀
+        uses: codecov/codecov-action@v1
+        with:
+          fail_ci_if_error: false # optional (default = false)
+          verbose: true # optional (default = false)
+          
+      - name: Run Code Climate 🚀
+        uses: paambaati/codeclimate-action@v2.7.4
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+        with:
+          coverageCommand: npm run coverage
+          debug: true
+
+      - name: Run SonarCloud 🚀
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+      - name: Build 🔧
+        run: |
+          npm run build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@3.6.2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BASE_BRANCH: staging
+          BRANCH: master
+          FOLDER: build
