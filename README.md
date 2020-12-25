@@ -21,6 +21,6 @@ A simple Jerry Chong's portfolio website.
 
 ## Author
 
-[Jerry Chong](https://www.linkedin.com/in/chonghf/) - <jerrychong25@gmail.com> 
+[Jerry Chong](https://www.linkedin.com/in/jerry-chong/) - <jerrychong25@gmail.com> 
 
 [![Profile of Jerry Chong on StackOverflow](https://stackoverflow.com/users/flair/5918539.png)](https://stackoverflow.com/users/5918539/jerry-chong)
