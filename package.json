@@ -65,7 +65,7 @@
     "foundation-sites": "^6.6.3",
     "jquery": "^3.6.0",
     "node-sass": "^4.14.1",
-    "postcss": "^6.0.23",
+    "postcss": "^8.2.13",
     "preact": "^8.5.3",
     "preact-compat": "^3.17.0",
     "preact-router": "^2.5.7",
